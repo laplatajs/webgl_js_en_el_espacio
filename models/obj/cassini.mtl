@@ -1,0 +1,10 @@
+# File created by luuv TSX
+# Created on: Sat Apr 04 10:12:02 2009 5
+
+newmtl cassini
+Ns 0
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 0.996078
+# End

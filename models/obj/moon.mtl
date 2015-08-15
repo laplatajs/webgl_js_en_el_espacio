@@ -1,0 +1,22 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Floor
+Ns 131.372549
+Ka 0.000000 0.000000 0.000000
+Kd 0.850980 0.850980 0.850980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./craterssm.png
+
+newmtl Mountains
+Ns 131.372549
+Ka 0.000000 0.000000 0.000000
+Kd 0.850980 0.850980 0.850980
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./craterssm.png

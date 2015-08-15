@@ -1,0 +1,13 @@
+{
+  "name": "threex.keyboardstate",
+  "homepage": "https://github.com/jeromeetienne/threex.keyboardstate",
+  "_release": "51fd77fdd8",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "51fd77fdd87eeed064db643693d393cf21afa45d"
+  },
+  "_source": "git://github.com/jeromeetienne/threex.keyboardstate.git",
+  "_target": "*",
+  "_originalSource": "threex.keyboardstate"
+}
