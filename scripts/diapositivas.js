@@ -37,19 +37,19 @@ diapositivas=[
 		"funcionesTexto":{
 			3:{
 				"load":function(){
-							loadPage3D("../material/cpuVSgpu.html");
+							loadPage3D("./material/cpuVSgpu.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			},
 			4:{
 				"load":function(){
-							loadPage3D("../material/cpu.html");
+							loadPage3D("./material/cpu.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			},
 			5:{
 				"load":function(){
-							loadPage3D("../material/gpu.html");
+							loadPage3D("./material/gpu.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			}
@@ -81,7 +81,7 @@ diapositivas=[
 		"funcionesTexto":{
 			2:{
 				"load":function(){
-							loadPage3D("../material/gputhreading.html");
+							loadPage3D("./material/gputhreading.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			}
@@ -131,31 +131,31 @@ diapositivas=[
 		"funcionesTexto":{
 			2:{
 				"load":function(){
-							loadPage3D("../material/shaderImg.html");
+							loadPage3D("./material/shaderImg.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			},
 			3:{
 				"load":function(){
-							loadPage3D("../material/vertexImg.html");
+							loadPage3D("./material/vertexImg.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			},
 			4:{
 				"load":function(){
-							loadPage3D("../material/fragmentImg.html");
+							loadPage3D("./material/fragmentImg.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			},
 			5:{
 				"load":function(){
-							loadPage3D("../material/pipelineSimpl.html");
+							loadPage3D("./material/pipelineSimpl.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			},
 			6:{
 				"load":function(){
-							loadPage3D("../material/pipeline.html");
+							loadPage3D("./material/pipeline.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			}
@@ -174,7 +174,7 @@ diapositivas=[
 		"funcionesTexto":{
 			1:{
 				"load":function(){
-							loadPage3D("../material/Spinning WebGL Box.html");
+							loadPage3D("./material/Spinning WebGL Box.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 							var code='<h3>Links</h3><a href="https://www.khronos.org/registry/webgl/sdk/demos/webkit/SpiritBox.html" target="new">Shader demo with texture</a>'
 							populateModal(code);
@@ -183,25 +183,25 @@ diapositivas=[
 			},
 			2:{
 				"load":function(){
-							loadPage3D("../material/vertex.html");
+							loadPage3D("./material/vertex.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			},
 			3:{
 				"load":function(){
-							loadPage3D("../material/fragment.html");
+							loadPage3D("./material/fragment.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			},
 			4:{
 				"load":function(){
-							loadPage3D("../material/sad.html");
+							loadPage3D("./material/sad.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			},	
 			5:{
 				"load":function(){
-							loadPage3D("../material/context.html");
+							loadPage3D("./material/context.html");
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			}				
@@ -337,7 +337,7 @@ diapositivas=[
 		"funcionesTexto":{
 			1:{
 				"load":function(){
-							loadPage3D("../material/escena.html")
+							loadPage3D("./material/escena.html")
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			}
@@ -356,13 +356,13 @@ diapositivas=[
 		"funcionesTexto":{
 			1:{
 				"load":function(){
-							loadPage3D("../material/threejsBasicDemoCode.html")
+							loadPage3D("./material/threejsBasicDemoCode.html")
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			},
 			2:{
 				"load":function(){
-							loadPage3D("../material/threejsBasicDemo.html")
+							loadPage3D("./material/threejsBasicDemo.html")
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			}
@@ -381,7 +381,7 @@ diapositivas=[
 		"funcionesTexto":{
 			1:{
 				"load":function(){
-							loadPage3D("../material/knowthis.html")
+							loadPage3D("./material/knowthis.html")
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 			}
@@ -405,7 +405,7 @@ diapositivas=[
 			3:{
 				"load":function(){
 
-							loadPage3D("../material/Shadow.html")
+							loadPage3D("./material/Shadow.html")
 							var code='<h3>Links</h3><a href="http://stemkoski.github.io/Three.js/Shadow.html" target="new">Shadows</a>'
 							populateModal(code);
 							onRenderFcts.push(deslizarPaginaAlFoco);
@@ -438,7 +438,7 @@ diapositivas=[
 		"funcionesTexto":{
 			2:{
 				"load":function(){
-							loadPage3D("../material/threejsBasicDemoCode.html")
+							loadPage3D("./material/threejsBasicDemoCode.html")
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 				}
@@ -458,7 +458,7 @@ diapositivas=[
 		"funcionesTexto":{
 			2:{
 				"load":function(){
-							loadPage3D("../material/threejsBasicDemoCode.html")
+							loadPage3D("./material/threejsBasicDemoCode.html")
 							onRenderFcts.push(deslizarPaginaAlFoco);
 						}
 				}
@@ -489,7 +489,7 @@ diapositivas=[
 		"funcionesTexto":{
 			1:{
 				"load":function(){
-							loadPage3D("../material/key.html")
+							loadPage3D("./material/key.html")
 							var code='<h3>Links</h3><a href="http://threejs.org/examples/#webgl_animation_skinning_blending" target="new">Demo keyframe</a>'
 							populateModal(code);
 							onRenderFcts.push(deslizarPaginaAlFoco);
@@ -529,7 +529,7 @@ diapositivas=[
 		"funcionesTexto":{
 			2:{
 				"load":function(){
-							loadPage3D("http://0.0.0.0:9000/demo/editor/index.html")
+							loadPage3D("http://threejs.org/editor/")
 							var code='<h3>Links</h3><a href="http://threejs.org/editor/" target="new">Editor</a>'
 							populateModal(code);
 							onRenderFcts.push(deslizarPaginaAlFoco);

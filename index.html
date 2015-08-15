@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <script src="js/classie.js"></script>
 <script src="bower_components/requirejs/require.js"></script>
-<link rel="stylesheet" href="css/font-awesome.min.css"/>
-<link rel="stylesheet" type="text/css" href="css/default.css" />
-<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link rel="stylesheet" href="./css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="./css/default.css" />
+<link rel="stylesheet" type="text/css" href="./css/component.css" />
 <style type="text/css">
     #modal-1{
         text-align: center;
@@ -43,7 +43,7 @@
 require(["vendor/three.js/build/three.min"],
     function(){
       require(["vendor/three.js/examples/js/Detector",
-        "../vendor/threex.windowresize",
+        "vendor/threex.windowresize",
         "js/controls/OrbitControls",
         "js/controls/TrackballControls",
         "js/controls/FlyControls",

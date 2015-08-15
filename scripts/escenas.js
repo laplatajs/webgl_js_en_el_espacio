@@ -30,7 +30,7 @@ onRenderFcts.push(function(delta, now){
 
   loadRocket();
   //rocket=null;
-
+  THREEx.Planets.baseURL="./"
   var starSphere  = THREEx.Planets.createStarfield();
   starSphere.scale.set(scale, scale, scale);
   scene.add(starSphere)
@@ -237,8 +237,8 @@ function loadPad(){
   containerEarth.position.multiplyScalar(scale);
   scene.add(containerEarth);
   moonMesh  = THREEx.Planets.createMoon();
-  moonMesh.material.bumpMap= THREE.ImageUtils.loadTexture('images/moonbump1kJS.jpg')
-  moonMesh.material.map= THREE.ImageUtils.loadTexture('images/moonmap1kJS.jpg')
+  moonMesh.material.bumpMap= THREE.ImageUtils.loadTexture('./images/moonbump1kJS.jpg')
+  moonMesh.material.map= THREE.ImageUtils.loadTexture('./images/moonmap1kJS.jpg')
   moonMesh.position.set(0.8,-0.1,0.5);
   moonMesh.position.multiplyScalar(scale);
   moonMesh.scale.multiplyScalar(1/5*scale);
